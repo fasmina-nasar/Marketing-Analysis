@@ -1,3 +1,9 @@
+%matplotlib inline
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+
 class numerical_and_categorical:
   def __init__(self,df):
     self.df = df
@@ -25,21 +31,22 @@ class numerical_and_categorical:
         sns.histplot(data=self.df , x=col, hue=categorical_features[-1],kde=True)
         i+=1
       plt.tight_layout()
-      plt.show()    
+      plt.show()      
 
 
 class freqs_and_countplot:
-  def __init__(self, df, col):
-    self.df = df
-    self.col = col
-  def count_freqs(self):
-    print(pd.crosstab(self.df[self.col],self.df['y']).T)
+    def __init__(self, df, col):
+        self.df = df
+        self.col = col
+    
+    def count_freqs(self):
+        print(pd.crosstab(self.df[self.col],self.df['y']).T)
 
-  def countplot(self):
-    sns.countplot(x=self.df[self.col],hue=self.df['y'])
-    plt.xticks(rotation=45, size=12)
-    plt.xlabel(self.col)
-    plt.ylabel("count")
-    plt.title(f"{self.col} and Subscriptions")
-    plt.show()
+    def countplot(self):
+        sns.countplot(x=self.df[self.col],hue=self.df['y'])
+        plt.xticks(rotation=45, size=12)
+        plt.xlabel(self.col)
+        plt.ylabel("count")
+        plt.title(f"{self.col} and Subscriptions")
+        plt.show()
 
