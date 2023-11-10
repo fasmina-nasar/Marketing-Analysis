@@ -59,8 +59,7 @@ Conclusions
 * Contacting people in the month of April and in the interval june to august will be of positive result.
 
 For the visualization in Tableau, refer the link provided:
-[https://public.tableau.com/app/profile/fasmina/viz/TermDepositMarketingAnalysis/Dashboard1
-](url)
+https://public.tableau.com/app/profile/fasmina/viz/TermDepositMarketingAnalysis/Dashboard1
 
 Project Organization
 ------------
