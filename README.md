@@ -58,6 +58,9 @@ Conclusions
 * People who has credit in default and housing loan are more likely to decline the offer.
 * Contacting people in the month of April and in the interval june to august will be of positive result.
 
+For the visualization in Tableau, refer the link provided:
+[https://public.tableau.com/app/profile/fasmina/viz/TermDepositMarketingAnalysis/Dashboard1
+](url)
 
 Project Organization
 ------------
